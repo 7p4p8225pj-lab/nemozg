@@ -1,0 +1,91 @@
+.game-container {
+  width: 800px;
+  margin: 40px auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.game-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.game-header h1 {
+  margin: 0;
+}
+
+.start-button, .bonus-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover, .bonus-button:hover {
+  background-color: #3e8e41;
+}
+
+.game-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-level {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.game-memory, .game-logic, .game-sort, .game-memorization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memory-card, .sort-card, .memorization-card {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.memory-button, .logic-button, .sort-button, .memorization-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.memory-button:hover, .logic-button:hover, .sort-button:hover, .memorization-button:hover {
+  background-color: #3e8e41;
+}
+
+.game-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.achievement-button, .exit-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.achievement-button:hover, .exit-button:hover {
+  background-color: #3e8e41;
+}
