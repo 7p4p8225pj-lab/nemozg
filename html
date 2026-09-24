@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Игра для развития головы и мозга</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="game-header">
+      <h1>Игра для развития головы и мозга</h1>
+      <button class="start-button">Начать</button>
+      <button class="bonus-button">Запуск бонуса</button>
+    </div>
+    <div class="game-content">
+      <div class="game-level">
+        <h2>Уровень 1: Память</h2>
+        <div class="game-memory">
+          <div class="memory-card" id="memory-card-1">1</div>
+          <div class="memory-card" id="memory-card-2">2</div>
+          <div class="memory-card" id="memory-card-3">3</div>
+          <div class="memory-card" id="memory-card-4">4</div>
+        </div>
+        <button class="memory-button">Проверить</button>
+      </div>
+      <div class="game-level">
+        <h2>Уровень 2: Логика</h2>
+        <div class="game-logic">
+          <div class="logic-question">Что если 2 + 2 = ?</div>
+          <input type="number" id="logic-answer">
+          <button class="logic-button">Проверить</button>
+        </div>
+      </div>
+      <div class="game-level">
+        <h2>Уровень 3: Сортировка</h2>
+        <div class="game-sort">
+          <div class="sort-card" id="sort-card-1">1</div>
+          <div class="sort-card" id="sort-card-2">2</div>
+          <div class="sort-card" id="sort-card-3">3</div>
+          <div class="sort-card" id="sort-card-4">4</div>
+        </div>
+        <button class="sort-button">Проверить</button>
+      </div>
+      <div class="game-level">
+        <h2>Уровень 4: Меморизация</h2>
+        <div class="game-memorization">
+          <div class="memorization-card" id="memorization-card-1">1</div>
+          <div class="memorization-card" id="memorization-card-2">2</div>
+          <div class="memorization-card" id="memorization-card-3">3</div>
+          <div class="memorization-card" id="memorization-card-4">4</div>
+        </div>
+        <button class="memorization-button">Проверить</button>
+      </div>
+    </div>
+    <div class="game-footer">
+      <button class="achievement-button">Достижения</button>
+      <button class="exit-button">Выход</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
